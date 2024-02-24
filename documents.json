@@ -6,8 +6,13 @@
     },
     {
         "id": "aaaab",
-        "className": "math381",
-        "fileLocation": "./documents/file2.pdf"
+        "className": "math233",
+        "fileLocation": "./documents/math233notes1.pdf"
+    },
+    {
+        "id": "aaaac",
+        "className": "comp210",
+        "fileLocation": "./documents/comp210notes1.pdf"
     }
 
 ]
