@@ -2,6 +2,12 @@
     {
         "id": "aaaaa",
         "className": "math381",
-        "fileLocation": "./documents/file1.pdf"
+        "fileLocation": "./documents/discretenotes1.pdf"
+    },
+    {
+        "id": "aaaab",
+        "className": "math381",
+        "fileLocation": "./documents/file2.pdf"
     }
+
 ]
