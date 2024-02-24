@@ -1,0 +1,11 @@
+.flex-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+    margin-top: -15px;
+    background: #9d9aea;
+    flex-wrap: wrap;
+}
