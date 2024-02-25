@@ -156,3 +156,16 @@
     width: 100px;
     height: 100px;
   }
+
+  .ok{
+		
+		font-size: 20px;
+	}
+	.op{
+		font-size: 20px;
+		margin-left: -70px;
+		font-weight: bold;
+		background-color: yellow;
+		border-radius: 5px;
+		cursor: pointer;
+	}
