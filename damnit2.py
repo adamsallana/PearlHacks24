@@ -31,7 +31,8 @@ import os
 
 @app.route('/search')   
 def getFiles():
-    folderPath = r"C:\Users\Allana\PearlHacks24\documents"
+    # folderPath = r"C:\Users\Allana\PearlHacks24\documents"
+    folderPath = r"./documents"
     def fObjFromScan(x):
         # return file information for rendering
         
