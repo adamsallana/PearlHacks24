@@ -11,9 +11,6 @@ def main():
 def upload():   
     return render_template("uploadnotes.html") 
 
-@app.route('/search')   
-def search():   
-    return render_template("searchnotes.html") 
 
 
 @app.route('/success', methods = ['POST'])   
@@ -22,7 +19,29 @@ def success():
         f = request.files['file'] 
         f.save('documents/'+f.filename)   
         return render_template("totesdidit.html", name = f.filename)   
-  
+
+# import os
+
+# # @app.route('/searchresults')   
+# # def results():   
+# #         folderPath = r"C:\Users\Allana\Dev\PearlHacks24\PearlHacks24\PearlHacks24-1\documents"
+# #         documentsList = []
+# #         for x in os.scandir(folderPath):
+# #              documentsList.append[x.name]
+# #         return render_template("searchnotes-res.html", names = documentsList)   
+
+# folderPath = r"C:\Users\Allana\Dev\PearlHacks24\PearlHacks24\PearlHacks24-1\documents"
+
+# def getFiles():
+#     def fObjFromScan(x):
+#         # return file information for rendering
+#         return {'name': x.name,
+#                 'relPath': os.path.relpath(x.path, folderPath).replace("\\", "/")}
+#     fileObjs = [fObjFromScan(x) for x in os.scandir(folderPath)]
+
+#     return render_template('files.html.j2', data={'files': fileObjs})
+
+
 if __name__ == '__main__':   
     app.run(debug=True)
 
