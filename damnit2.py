@@ -5,7 +5,15 @@ app = Flask(__name__)
   
 @app.route('/')   
 def main():   
-    return render_template("uploadnotes.html")   
+    return render_template("index.html")   
+
+@app.route('/upload')   
+def upload():   
+    return render_template("uploadnotes.html") 
+
+@app.route('/search')   
+def search():   
+    return render_template("searchnotes.html") 
 
 
 @app.route('/success', methods = ['POST'])   

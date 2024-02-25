@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Responsive Navbar | CodingNepal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/static/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   </head>
   <body>
@@ -16,16 +16,26 @@
       </label>
       <label class="logo">Study Buddy</label>
       <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./searchnotes.html">Search</a></li>
-        <li><a href="./uploadnotes.html">Upload</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/search">Search</a></li>
+        <li><a href="/upload">Upload</a></li>
         <!-- <li><a href="#">Contact</a></li> -->
         <li><a href="#">Account</a></li>
       </ul>
     </nav>
     <section>
-        <h1>Home</h1>
-        
+      
+      <div id="container">
+        <div>Pick a </div>
+        <div class="dropdown" style="margin: 10% 45%;">
+          <button class="dropbtn">Class</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> 
+      </div>
     </section>
   </body>
 </html>
