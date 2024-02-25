@@ -5,7 +5,7 @@ app = Flask(__name__)
   
 @app.route('/')   
 def main():   
-    return render_template("idk.html")   
+    return render_template("uploadnotes.html")   
 
 
 @app.route('/success', methods = ['POST'])   

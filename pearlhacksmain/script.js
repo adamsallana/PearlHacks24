@@ -38,3 +38,11 @@ function visitUploadNotes() {
 function visitUploadNotesConf() {
     window.location="./uploadnotes-conf.html"
 }
+
+
+// BUTTON
+const submitButton = document.getElementById("button");
+
+submitButton.addEventListener("click", () => {
+    window.location=""
+})
