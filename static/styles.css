@@ -7,9 +7,10 @@
   }
   body{
     font-family: montserrat;
+    background-image: url(lofigirl.jpg);
   }
   nav{
-    background: #0082e6;
+    background:rgb(85, 154, 227);
     height: 80px;
     width: 100%;
   }
@@ -153,7 +154,7 @@
     justify-content: space-between; /* switched from default (flex-start, see below) */
   }
   #container > div {
-    width: 100px;
+    width: 500x;
     height: 100px;
   }
 
@@ -193,3 +194,24 @@
       text-align: center;
       color: rgb(85, 154, 227);
     }
+
+
+  .searcha {
+    margin: auto;
+    width: 80%;
+    padding-left: 100px;
+    align-content: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .searcha2 {
+    margin: auto;
+    padding-top: 40px;
+    border: 5px solid rgb(32, 62, 93);
+    background-color: rgb(85, 154, 227);
+    width: 80%;
+    margin-top: 100px;
+    align-content: center;
+    padding-bottom: 40px;
+  }
